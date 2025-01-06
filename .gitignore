@@ -1,0 +1,55 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (Go modules and vendoring)
+vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Logs and debugging
+*.log
+*.trace
+
+# IDE/editor configurations and project files
+.idea/
+.vscode/
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+
+# Build artifacts and caches
+bin/
+pkg/
+
+# GoLand, IntelliJ, and JetBrains IDE settings
+*.ipr
+*.iws
+*.idea/
+*.run.xml
+*.swp
+
+# Node.js (if using frontend in the project)
+node_modules/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
